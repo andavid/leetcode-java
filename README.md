@@ -18,7 +18,7 @@
 | 26   | [Remove Duplicates from Sorted Array][026]  |
 | 121  | [Best Time to Buy and Sell Stock][121]      |
 | 122  | [Best Time to Buy and Sell Stock II][122]   |
-| 189  | Rotate Array                                |
+| 189  | [Rotate Array][189]                         |
 
 
 
@@ -29,3 +29,4 @@
 [026]: https://github.com/andavid/leetcode-java/blob/master/note/026/README.md
 [121]: https://github.com/andavid/leetcode-java/blob/master/note/121/README.md
 [122]: https://github.com/andavid/leetcode-java/blob/master/note/122/README.md
+[189]: https://github.com/andavid/leetcode-java/blob/master/note/189/README.md
