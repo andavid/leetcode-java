@@ -16,6 +16,7 @@
 | #    | Title                                       |
 | :--- | :------------------------------------------ |
 | 26   | [Remove Duplicates from Sorted Array][026]  |
+| 121  | [Best Time to Buy and Sell Stock][121]      |
 | 122  | Best Time to Buy and Sell Stock II          |
 | 189  | Rotate Array                                |
 
@@ -26,3 +27,4 @@
 [easy]: https://leetcode.com/explore/interview/card/top-interview-questions-easy/
 
 [026]: https://github.com/andavid/leetcode-java/blob/master/note/026/README.md
+[121]: https://github.com/andavid/leetcode-java/blob/master/note/121/README.md
