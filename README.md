@@ -13,14 +13,16 @@
 
 **Array**
 
-| #    | Title                                |
-| :--- | :----------------------------------- |
-| 26   | Remove Duplicates from Sorted Array  |
-| 122  | Best Time to Buy and Sell Stock II   |
-| 189  | Rotate Array                         |
+| #    | Title                                       |
+| :--- | :------------------------------------------ |
+| 26   | [Remove Duplicates from Sorted Array][026]  |
+| 122  | Best Time to Buy and Sell Stock II          |
+| 189  | Rotate Array                                |
 
 
 
 [leetcode]: https://leetcode.com/problemset/all/
 [blankj]: https://github.com/Blankj/awesome-java-leetcode
 [easy]: https://leetcode.com/explore/interview/card/top-interview-questions-easy/
+
+[026]: https://github.com/andavid/leetcode-java/blob/master/note/026/README.md
