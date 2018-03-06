@@ -21,6 +21,7 @@
 | 189  | [Rotate Array][189]                         |
 | 217  | [Contains Duplicate][217]                   |
 | 136  | [Single Number][136]                        |
+| 350  | [Intersection of Two Arrays II][350]        |
 
 [leetcode]: https://leetcode.com/problemset/all/
 [blankj]: https://github.com/Blankj/awesome-java-leetcode
@@ -32,3 +33,4 @@
 [189]: https://github.com/andavid/leetcode-java/blob/master/note/189/README.md
 [217]: https://github.com/andavid/leetcode-java/blob/master/note/217/README.md
 [136]: https://github.com/andavid/leetcode-java/blob/master/note/136/README.md
+[350]: https://github.com/andavid/leetcode-java/blob/master/note/350/README.md
