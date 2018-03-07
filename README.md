@@ -14,15 +14,23 @@
 **Array**
 
 | #    | Title                                       |
-| :--- | :------------------------------------------ |
+| :--: | :------------------------------------------ |
 | 26   | [Remove Duplicates from Sorted Array][026]  |
-| 121  | [Best Time to Buy and Sell Stock][121]      |
 | 122  | [Best Time to Buy and Sell Stock II][122]   |
 | 189  | [Rotate Array][189]                         |
 | 217  | [Contains Duplicate][217]                   |
 | 136  | [Single Number][136]                        |
 | 350  | [Intersection of Two Arrays II][350]        |
 | 66   | [Plus One][66]                              |
+
+
+**其他**
+
+| #    | Title                                       |
+| :--: | :------------------------------------------ |
+| 121  | [Best Time to Buy and Sell Stock][121]      |
+
+
 
 [leetcode]: https://leetcode.com/problemset/all/
 [blankj]: https://github.com/Blankj/awesome-java-leetcode
