@@ -21,9 +21,9 @@
 | 217  | [Contains Duplicate][217]                   |
 | 136  | [Single Number][136]                        |
 | 350  | [Intersection of Two Arrays II][350]        |
-| 66   | [Plus One][066]                              |
+| 66   | [Plus One][066]                             |
 | 283  | [Move Zeroes][283]                          |
-
+| 1    | [Two Sum][001]                              |
 
 **其他**
 
@@ -46,3 +46,4 @@
 [350]: https://github.com/andavid/leetcode-java/blob/master/note/350/README.md
 [066]: https://github.com/andavid/leetcode-java/blob/master/note/066/README.md
 [283]: https://github.com/andavid/leetcode-java/blob/master/note/283/README.md
+[001]: https://github.com/andavid/leetcode-java/blob/master/note/001/README.md
