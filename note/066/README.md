@@ -41,4 +41,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/plus-one
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_66/Solution.java
+[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_066/Solution.java
