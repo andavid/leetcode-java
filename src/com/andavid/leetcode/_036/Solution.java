@@ -2,34 +2,23 @@ import java.util.*;
 
 class Solution {
   public boolean isValidSudoku(char[][] board) {
-    final int size = 9;
-
-    if (board == null || board.length != size || board[0].length != size) {
+    if (board == null || board.length != 9 || board[0].length != 9) {
       return false;
     }
 
-    ArrayList<HashSet<Character>> row = new ArrayList<HashSet<Character>>();
-    ArrayList<HashSet<Character>> col = new ArrayList<HashSet<Character>>();
-    ArrayList<HashSet<Character>> area = new ArrayList<HashSet<Character>>();
+    boolean[][] rows = new boolean[9][9];
+    boolean[][] cols = new boolean[9][9];
+    boolean[][] boxs = new boolean[9][9];
 
-    for (int i = 0; i < size; i++) {
-      row.add(new HashSet<Character>());
-      col.add(new HashSet<Character>());
-      area.add(new HashSet<Character>());
-    }
-
-    for (int i = 0; i < size; i++) { // row
-      for (int j = 0; j < size; j++) { // column
-        int box = 3 * (i / 3) + j / 3; // sub box
+    for (int i = 0; i < 9; i++) {
+      for (int j = 0; j < 9; j++) {
         if (board[i][j] != '.') {
-          if (row.get(i).contains(board[i][j])
-              || col.get(j).contains(board[i][j])
-              || area.get(box).contains(board[i][j])) {
+          int k = (i / 3) * 3 + j / 3;
+          int number = board[i][j] - '0' - 1;
+          if (rows[i][number] || cols[j][number] || boxs[k][number]) {
             return false;
           }
-          row.get(i).add(board[i][j]);
-          col.get(j).add(board[i][j]);
-          area.get(box).add(board[i][j]);
+          rows[i][number] = cols[j][number] = boxs[k][number] = true;
         }
       }
     }

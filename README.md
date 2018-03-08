@@ -24,6 +24,7 @@
 | 66   | [Plus One][066]                             |
 | 283  | [Move Zeroes][283]                          |
 | 1    | [Two Sum][001]                              |
+| 36   | [Valid Sudoku][036]                         |
 
 **其他**
 
@@ -47,3 +48,4 @@
 [066]: https://github.com/andavid/leetcode-java/blob/master/note/066/README.md
 [283]: https://github.com/andavid/leetcode-java/blob/master/note/283/README.md
 [001]: https://github.com/andavid/leetcode-java/blob/master/note/001/README.md
+[036]: https://github.com/andavid/leetcode-java/blob/master/note/036/README.md
