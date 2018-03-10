@@ -25,6 +25,8 @@
 | 283  | [Move Zeroes][283]                          |
 | 1    | [Two Sum][001]                              |
 | 36   | [Valid Sudoku][036]                         |
+| 48   | [Rotate Image][048]                         |
+
 
 **其他**
 
@@ -49,3 +51,4 @@
 [283]: https://github.com/andavid/leetcode-java/blob/master/note/283/README.md
 [001]: https://github.com/andavid/leetcode-java/blob/master/note/001/README.md
 [036]: https://github.com/andavid/leetcode-java/blob/master/note/036/README.md
+[048]: https://github.com/andavid/leetcode-java/blob/master/note/048/README.md
