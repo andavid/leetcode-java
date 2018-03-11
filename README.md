@@ -58,3 +58,4 @@
 [001]: https://github.com/andavid/leetcode-java/blob/master/note/001/README.md
 [036]: https://github.com/andavid/leetcode-java/blob/master/note/036/README.md
 [048]: https://github.com/andavid/leetcode-java/blob/master/note/048/README.md
+[344]: https://github.com/andavid/leetcode-java/blob/master/note/344/README.md
