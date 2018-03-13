@@ -34,7 +34,7 @@
 | 344  | [Reverse String][344]                       |
 | 7    | [Reverse Integer][007]                      |
 | 387  | [First Unique Character in a String][387]   |
-
+| 242  | [Valid Anagram][242]                        |
 
 **其他**
 
@@ -63,3 +63,4 @@
 [344]: https://github.com/andavid/leetcode-java/blob/master/note/344/README.md
 [007]: https://github.com/andavid/leetcode-java/blob/master/note/007/README.md
 [387]: https://github.com/andavid/leetcode-java/blob/master/note/387/README.md
+[242]: https://github.com/andavid/leetcode-java/blob/master/note/242/README.md
