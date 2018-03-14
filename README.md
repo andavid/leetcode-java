@@ -37,6 +37,7 @@
 | 242  | [Valid Anagram][242]                        |
 | 125  | [Valid Palindrome][125]                     |
 | 8    | [String to Integer (atoi)][008]             |
+| 28   | [Implement strStr()][028]                   |
 
 
 **其他**
@@ -69,3 +70,4 @@
 [242]: https://github.com/andavid/leetcode-java/blob/master/note/242/README.md
 [125]: https://github.com/andavid/leetcode-java/blob/master/note/125/README.md
 [008]: https://github.com/andavid/leetcode-java/blob/master/note/008/README.md
+[028]: https://github.com/andavid/leetcode-java/blob/master/note/028/README.md
