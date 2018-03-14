@@ -36,6 +36,7 @@
 | 387  | [First Unique Character in a String][387]   |
 | 242  | [Valid Anagram][242]                        |
 | 125  | [Valid Palindrome][125]                     |
+| 8    | [String to Integer (atoi)][008]             |
 
 
 **其他**
@@ -67,3 +68,4 @@
 [387]: https://github.com/andavid/leetcode-java/blob/master/note/387/README.md
 [242]: https://github.com/andavid/leetcode-java/blob/master/note/242/README.md
 [125]: https://github.com/andavid/leetcode-java/blob/master/note/125/README.md
+[008]: https://github.com/andavid/leetcode-java/blob/master/note/008/README.md
