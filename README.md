@@ -38,6 +38,7 @@
 | 125  | [Valid Palindrome][125]                     |
 | 8    | [String to Integer (atoi)][008]             |
 | 28   | [Implement strStr()][028]                   |
+| 38   | [count-and-say][038]                        |
 
 
 **其他**
@@ -71,3 +72,4 @@
 [125]: https://github.com/andavid/leetcode-java/blob/master/note/125/README.md
 [008]: https://github.com/andavid/leetcode-java/blob/master/note/008/README.md
 [028]: https://github.com/andavid/leetcode-java/blob/master/note/028/README.md
+[038]: https://github.com/andavid/leetcode-java/blob/master/note/038/README.md
