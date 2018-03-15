@@ -39,6 +39,7 @@
 | 8    | [String to Integer (atoi)][008]             |
 | 28   | [Implement strStr()][028]                   |
 | 38   | [count-and-say][038]                        |
+| 14   | [Longest Common Prefix][014]                |
 
 
 **其他**
@@ -73,3 +74,4 @@
 [008]: https://github.com/andavid/leetcode-java/blob/master/note/008/README.md
 [028]: https://github.com/andavid/leetcode-java/blob/master/note/028/README.md
 [038]: https://github.com/andavid/leetcode-java/blob/master/note/038/README.md
+[014]: https://github.com/andavid/leetcode-java/blob/master/note/014/README.md
