@@ -54,7 +54,7 @@ class Solution {
 先找出最短字符串的长度，最长公共前缀的长度不会超过最短字符串的长度。
 采用二分查找的思路逐步确定最长公共前缀。
 
-## [完整代码][src]
+## [完整代码][src2]
 
 ```java
 class Solution {
@@ -98,3 +98,4 @@ class Solution {
 
 [title]: https://leetcode.com/problems/longest-common-prefix
 [src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_014/Solution.java
+[src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_014/Solution2.java
