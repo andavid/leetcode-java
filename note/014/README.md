@@ -4,7 +4,7 @@
 
 Write a function to find the longest common prefix string amongst an array of strings.
 
-## 思路
+## 思路一
 
 求最长公共前缀。
 
@@ -45,6 +45,53 @@ class Solution {
       }
     }
     return left.substring(0, min);
+  }
+}
+```
+
+## 思路二
+
+先找出最短字符串的长度，最长公共前缀的长度不会超过最短字符串的长度。
+采用二分查找的思路逐步确定最长公共前缀。
+
+## 完整代码
+
+```java
+class Solution {
+  public String longestCommonPrefix(String[] strs) {
+    if (strs == null || strs.length == 0) {
+      return "";
+    }
+
+    int minLen = Integer.MAX_VALUE;
+    for(String str : strs) {
+      if (str.length() < minLen) {
+        minLen = str.length();
+      }
+    }
+
+    int low = 1;
+    int high = minLen;
+    while (low <= high) {
+      int mid = (low + high) / 2;
+      if (isCommonPrefix(strs, mid)) {
+        low = mid + 1;
+      } else {
+        high = mid - 1;
+      }
+    }
+
+    return strs[0].substring(0, (low + high) / 2);
+  }
+
+  public boolean isCommonPrefix(String[] strs, int mid) {
+    String prefix = strs[0].substring(0, mid);
+    for (int i = 1; i < strs.length; i++) {
+      if (!strs[i].startsWith(prefix)) {
+        return false;
+      }
+    }
+    return true;
   }
 }
 ```
