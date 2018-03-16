@@ -9,7 +9,7 @@
 ## Easy
 
 以下是 LeetCode 官方精选的经典面试问题列表：
-[Top Interview Questions Easy Collection][easy]
+[Top Interview Questions Easy Collection][interview-easy]
 
 **Array**
 
@@ -41,6 +41,13 @@
 | 38   | [count-and-say][038]                        |
 | 14   | [Longest Common Prefix][014]                |
 
+**Linked List**
+
+| #    | Title                                       |
+| :--: | :------------------------------------------ |
+| 237  | [Delete Node in a Linked List][237]         |
+
+
 
 **其他**
 
@@ -52,7 +59,7 @@
 
 [leetcode]: https://leetcode.com/problemset/all/
 [blankj]: https://github.com/Blankj/awesome-java-leetcode
-[easy]: https://leetcode.com/explore/interview/card/top-interview-questions-easy/
+[interview-easy]: https://leetcode.com/explore/interview/card/top-interview-questions-easy/
 
 [026]: https://github.com/andavid/leetcode-java/blob/master/note/026/README.md
 [121]: https://github.com/andavid/leetcode-java/blob/master/note/121/README.md
@@ -75,3 +82,4 @@
 [028]: https://github.com/andavid/leetcode-java/blob/master/note/028/README.md
 [038]: https://github.com/andavid/leetcode-java/blob/master/note/038/README.md
 [014]: https://github.com/andavid/leetcode-java/blob/master/note/014/README.md
+[237]: https://github.com/andavid/leetcode-java/blob/master/note/237/README.md
