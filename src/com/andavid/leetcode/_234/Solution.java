@@ -1,6 +1,6 @@
 class Solution {
 
-  public static boolean isPalindrome(ListNode head) {
+  public boolean isPalindrome(ListNode head) {
     if (head == null || head.next == null) {
       return true;
     }
@@ -52,7 +52,8 @@ class Solution {
     node4.next = node5;
     node5.next = null;
 
-    System.out.println(isPalindrome(node1));
+    Solution solution = new Solution();
+    System.out.println(solution.isPalindrome(node1));
   }
 
 }
