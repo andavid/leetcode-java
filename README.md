@@ -52,6 +52,13 @@
 | 234  | [Palindrome Linked List][234]               |
 | 141  | [Linked List Cycle][141]                    |
 
+**Trees**
+
+| #    | Title                                       |
+| :--: | :------------------------------------------ |
+| 104  | [Maximum Depth of Binary Tree][104]         |
+
+
 **其他**
 
 | #    | Title                                       |
@@ -91,3 +98,4 @@
 [021]: https://github.com/andavid/leetcode-java/blob/master/note/021/README.md
 [234]: https://github.com/andavid/leetcode-java/blob/master/note/234/README.md
 [141]: https://github.com/andavid/leetcode-java/blob/master/note/141/README.md
+[104]: https://github.com/andavid/leetcode-java/blob/master/note/104/README.md
