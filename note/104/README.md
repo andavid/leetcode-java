@@ -19,7 +19,7 @@ Given binary tree [3,9,20,null,null,15,7],
 
 return its depth = 3.
 
-## 思路
+## 思路一
 
 递归。求二叉树 root 节点左子树和右子树的深度，其中较大的深度加 1 即为二叉树的深度。
 
@@ -45,5 +45,27 @@ class Solution {
 }
 ```
 
+## 思路二
+
+递归。带上当前节点的深度。
+
+## [完整代码][src2]
+
+```java
+class Solution {
+  public int maxDepth(TreeNode root) {
+    return scan(root, 0);
+  }
+
+  public int scan(TreeNode root, int depth) {
+    if (root == null) {
+      return depth;
+    }
+    return Math.max(scan(root.left, depth + 1), scan(root.right, depth + 1));
+  }
+}
+```
+
 [title]: https://leetcode.com/problems/maximum-depth-of-binary-tree
 [src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_104/Solution.java
+[src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_104/Solution2.java
