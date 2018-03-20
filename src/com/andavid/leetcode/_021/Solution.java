@@ -1,6 +1,6 @@
 class Solution {
 
-  public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+  public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
     if (l1 == null) return l2;
     if (l2 == null) return l1;
 
@@ -51,7 +51,8 @@ class Solution {
     l22.next = l23;
     l23.next = null;
 
-    ListNode node = mergeTwoLists(l11, l21);
+    Solution solution = new Solution();
+    ListNode node = solution.mergeTwoLists(l11, l21);
     while(node.next != null) {
       System.out.print(node.val + ",");
       node = node.next;
