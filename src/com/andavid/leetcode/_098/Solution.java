@@ -1,9 +1,9 @@
 class Solution {
-  public static boolean isValidBST(TreeNode root) {
+  public boolean isValidBST(TreeNode root) {
     return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
   }
 
-  public static boolean isValidBST(TreeNode root, long min, long max) {
+  public boolean isValidBST(TreeNode root, long min, long max) {
     if (root == null) {
       return true;
     }
@@ -32,7 +32,8 @@ class Solution {
     node1.left = node1.right = null;
     node2.left = node2.right = null;
 
-    System.out.println(isValidBST(root));
+    Solution solution = new Solution();
+    System.out.println(solution.isValidBST(root));
   }
 
 }
