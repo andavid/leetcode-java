@@ -1,6 +1,6 @@
 class Solution {
 
-  public static boolean hasCycle(ListNode head) {
+  public boolean hasCycle(ListNode head) {
     ListNode slow = head;
     ListNode fast = head;
     while (fast != null && fast.next != null) {
@@ -29,7 +29,8 @@ class Solution {
     node2.next = node3;
     node3.next = node1;
 
-    System.out.println(hasCycle(node1));
+    Solution solution = new Solution();
+    System.out.println(solution.hasCycle(node1));
   }
 
 }
