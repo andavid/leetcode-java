@@ -54,14 +54,14 @@ class Solution {
 ```java
 class Solution {
   public int maxDepth(TreeNode root) {
-    return scan(root, 0);
+    return maxDepth(root, 0);
   }
 
-  public int scan(TreeNode root, int depth) {
+  public int maxDepth(TreeNode root, int depth) {
     if (root == null) {
       return depth;
     }
-    return Math.max(scan(root.left, depth + 1), scan(root.right, depth + 1));
+    return Math.max(maxDepth(root.left, depth + 1), maxDepth(root.right, depth + 1));
   }
 }
 ```
