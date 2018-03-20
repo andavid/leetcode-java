@@ -1,6 +1,6 @@
 class Solution {
 
-  public static ListNode reverseList(ListNode head) {
+  public ListNode reverseList(ListNode head) {
     ListNode prev = null;
     ListNode curr = head;
     while (curr != null) {
@@ -32,7 +32,8 @@ class Solution {
     node4.next = node5;
     node5.next = null;
 
-    ListNode node = reverseList(node1);
+    Solution solution = new Solution();
+    ListNode node = solution.reverseList(node1);
     while(node.next != null) {
       System.out.print(node.val + ",");
       node = node.next;
