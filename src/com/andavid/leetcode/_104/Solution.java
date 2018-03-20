@@ -1,5 +1,5 @@
 class Solution {
-  public static int maxDepth(TreeNode root) {
+  public int maxDepth(TreeNode root) {
     if (root == null) {
       return 0;
     }
@@ -30,7 +30,8 @@ class Solution {
     node3.left = node3.right = null;
     node4.left = node4.right = null;
 
-    System.out.println(maxDepth(root));
+    Solution solution = new Solution();
+    System.out.println(solution.maxDepth(root));
   }
 
 }

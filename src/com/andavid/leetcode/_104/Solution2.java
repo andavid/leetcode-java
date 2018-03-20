@@ -1,13 +1,13 @@
 class Solution2 {
-  public static int maxDepth(TreeNode root) {
-    return scan(root, 0);
+  public int maxDepth(TreeNode root) {
+    return maxDepth(root, 0);
   }
 
-  public static int scan(TreeNode root, int depth) {
+  public int maxDepth(TreeNode root, int depth) {
     if (root == null) {
       return depth;
     }
-    return Math.max(scan(root.left, depth + 1), scan(root.right, depth + 1));
+    return Math.max(maxDepth(root.left, depth + 1), maxDepth(root.right, depth + 1));
   }
 
   public static class TreeNode {
@@ -34,7 +34,8 @@ class Solution2 {
     node3.left = node3.right = null;
     node4.left = node4.right = null;
 
-    System.out.println(maxDepth(root));
+    Solution solution = new Solution();
+    System.out.println(solution.maxDepth(root));
   }
 
 }
