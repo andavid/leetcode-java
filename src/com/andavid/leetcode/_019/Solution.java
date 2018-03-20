@@ -1,6 +1,6 @@
 class Solution {
 
-  public static ListNode removeNthFromEnd(ListNode head, int n) {
+  public ListNode removeNthFromEnd(ListNode head, int n) {
     ListNode first = head;
     ListNode second = head;
 
@@ -40,7 +40,8 @@ class Solution {
     node4.next = node5;
     node5.next = null;
 
-    ListNode node = removeNthFromEnd(node1, 2);
+    Solution solution = new Solution();
+    ListNode node = solution.removeNthFromEnd(node1, 2);
     while(node.next != null) {
       System.out.print(node.val + ",");
       node = node.next;
