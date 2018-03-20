@@ -57,6 +57,7 @@
 | #    | Title                                       |
 | :--: | :------------------------------------------ |
 | 104  | [Maximum Depth of Binary Tree][104]         |
+| 98   | [Validate Binary Search Tree][098]          |
 
 
 **其他**
@@ -64,7 +65,6 @@
 | #    | Title                                       |
 | :--: | :------------------------------------------ |
 | 121  | [Best Time to Buy and Sell Stock][121]      |
-
 
 
 [leetcode]: https://leetcode.com/problemset/all/
@@ -99,3 +99,4 @@
 [234]: https://github.com/andavid/leetcode-java/blob/master/note/234/README.md
 [141]: https://github.com/andavid/leetcode-java/blob/master/note/141/README.md
 [104]: https://github.com/andavid/leetcode-java/blob/master/note/104/README.md
+[098]: https://github.com/andavid/leetcode-java/blob/master/note/098/README.md
