@@ -58,6 +58,7 @@
 | :--: | :------------------------------------------ |
 | 104  | [Maximum Depth of Binary Tree][104]         |
 | 98   | [Validate Binary Search Tree][098]          |
+| 101  | [Symmetric Tree][101]                       |
 
 
 **其他**
@@ -100,3 +101,4 @@
 [141]: https://github.com/andavid/leetcode-java/blob/master/note/141/README.md
 [104]: https://github.com/andavid/leetcode-java/blob/master/note/104/README.md
 [098]: https://github.com/andavid/leetcode-java/blob/master/note/098/README.md
+[101]: https://github.com/andavid/leetcode-java/blob/master/note/101/README.md
