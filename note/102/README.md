@@ -122,6 +122,47 @@ class Solution {
 }
 ```
 
+## 思路三
+
+使用递归。
+
+递归函数带上参数，包括要返回的列表，当前节点，当前层次。
+每一层对应一个列表，取到当前层对应的那个列表，添加当前节点的值，
+然后递归操作当前节点的左右孩子节点。
+
+## [完整代码][src3]
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+  public List<List<Integer>> levelOrder(TreeNode root) {
+    List<List<Integer>> res = new ArrayList<>();
+    if (root == null) return res;
+    helper(res, root, 0);
+    return res;
+  }
+
+  public void helper(List<List<Integer>> res, TreeNode root, int level) {
+    if (root == null) return;
+    if (level >= res.size()) {
+      res.add(new ArrayList<Integer>());
+    }
+    res.get(level).add(root.val);
+    helper(res, root.left, level + 1);
+    helper(res, root.right, level + 1);
+  }
+}
+```
+
 [title]: https://leetcode.com/problems/binary-tree-level-order-traversal
 [src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_102/Solution.java
 [src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_102/Solution2.java
+[src3]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_102/Solution3.java
