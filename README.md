@@ -62,6 +62,12 @@
 | 102  | [Binary Tree Level Order Traversal][102]           |
 | 108  | [Convert Sorted Array to Binary Search Tree][108]  |
 
+**Sorting and Searching**
+
+| #    | Title                                       |
+| :--: | :------------------------------------------ |
+| 88   | [Merge Sorted Array][088]                   |
+
 
 **其他**
 
@@ -106,3 +112,4 @@
 [101]: https://github.com/andavid/leetcode-java/blob/master/note/101/README.md
 [102]: https://github.com/andavid/leetcode-java/blob/master/note/102/README.md
 [108]: https://github.com/andavid/leetcode-java/blob/master/note/108/README.md
+[088]: https://github.com/andavid/leetcode-java/blob/master/note/088/README.md
