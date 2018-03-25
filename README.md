@@ -67,6 +67,7 @@
 | #    | Title                                       |
 | :--: | :------------------------------------------ |
 | 88   | [Merge Sorted Array][088]                   |
+| 278  | [First Bad Version][278]                    |
 
 
 **其他**
@@ -113,3 +114,4 @@
 [102]: https://github.com/andavid/leetcode-java/blob/master/note/102/README.md
 [108]: https://github.com/andavid/leetcode-java/blob/master/note/108/README.md
 [088]: https://github.com/andavid/leetcode-java/blob/master/note/088/README.md
+[278]: https://github.com/andavid/leetcode-java/blob/master/note/278/README.md
