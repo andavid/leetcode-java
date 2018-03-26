@@ -74,12 +74,6 @@
 | #    | Title                                       |
 | :--: | :------------------------------------------ |
 | 70   | [Climbing Stairs][070]                      |
-
-
-**其他**
-
-| #    | Title                                       |
-| :--: | :------------------------------------------ |
 | 121  | [Best Time to Buy and Sell Stock][121]      |
 
 
@@ -88,7 +82,6 @@
 [interview-easy]: https://leetcode.com/explore/interview/card/top-interview-questions-easy/
 
 [026]: https://github.com/andavid/leetcode-java/blob/master/note/026/README.md
-[121]: https://github.com/andavid/leetcode-java/blob/master/note/121/README.md
 [122]: https://github.com/andavid/leetcode-java/blob/master/note/122/README.md
 [189]: https://github.com/andavid/leetcode-java/blob/master/note/189/README.md
 [217]: https://github.com/andavid/leetcode-java/blob/master/note/217/README.md
@@ -122,3 +115,4 @@
 [088]: https://github.com/andavid/leetcode-java/blob/master/note/088/README.md
 [278]: https://github.com/andavid/leetcode-java/blob/master/note/278/README.md
 [070]: https://github.com/andavid/leetcode-java/blob/master/note/070/README.md
+[121]: https://github.com/andavid/leetcode-java/blob/master/note/121/README.md
