@@ -6,7 +6,7 @@ You are a professional robber planning to rob houses along a street. Each house 
 
 Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.
 
-## 思路
+## 思路一
 
 假设 dp[i] 表示抢劫前 i 个房子的最大收益，由于不能连着抢两个房子，所以 dp[i] = Max(dp[i-2]+ nums[i], dp[i-1])
 
@@ -35,5 +35,29 @@ class Solution {
 }
 ```
 
+## 思路二
+
+由于当前最大收益只取决于前两个的最大收益，因此代码可进行优化。
+
+## [完整代码][src2]
+
+```java
+class Solution {
+  public int rob(int[] nums) {
+    int prev = 0;
+    int curr = 0;
+
+    for (int num : nums) {
+      int temp = curr;
+      curr = Math.max(num + prev, curr);
+      prev = temp;
+    }
+
+    return curr;
+  }
+}
+```
+
 [title]: https://leetcode.com/problems/house-robber
 [src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_198/Solution.java
+[src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_198/Solution2.java
