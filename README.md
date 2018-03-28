@@ -78,6 +78,12 @@
 | 53   | [Maximum Subarray][053]                     |
 | 198  | [House Robber][198]                         |
 
+**Design**
+
+| #    | Title                                       |
+| :--: | :------------------------------------------ |
+| 384  | [Shuffle an Array][384]                     |
+
 
 [leetcode]: https://leetcode.com/problemset/all/
 [blankj]: https://github.com/Blankj/awesome-java-leetcode
@@ -120,3 +126,4 @@
 [121]: https://github.com/andavid/leetcode-java/blob/master/note/121/README.md
 [053]: https://github.com/andavid/leetcode-java/blob/master/note/053/README.md
 [198]: https://github.com/andavid/leetcode-java/blob/master/note/198/README.md
+[384]: https://github.com/andavid/leetcode-java/blob/master/note/384/README.md
