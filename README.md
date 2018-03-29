@@ -83,6 +83,7 @@
 | #    | Title                                       |
 | :--: | :------------------------------------------ |
 | 384  | [Shuffle an Array][384]                     |
+| 155  | [Min Stack][155]                            |
 
 
 [leetcode]: https://leetcode.com/problemset/all/
@@ -127,3 +128,4 @@
 [053]: https://github.com/andavid/leetcode-java/blob/master/note/053/README.md
 [198]: https://github.com/andavid/leetcode-java/blob/master/note/198/README.md
 [384]: https://github.com/andavid/leetcode-java/blob/master/note/384/README.md
+[155]: https://github.com/andavid/leetcode-java/blob/master/note/155/README.md
