@@ -85,6 +85,11 @@
 | 384  | [Shuffle an Array][384]                     |
 | 155  | [Min Stack][155]                            |
 
+**Math**
+| #    | Title                                       |
+| :--: | :------------------------------------------ |
+| 412  | [Fizz Buzz][412]                            |
+
 
 [leetcode]: https://leetcode.com/problemset/all/
 [blankj]: https://github.com/Blankj/awesome-java-leetcode
@@ -129,3 +134,4 @@
 [198]: https://github.com/andavid/leetcode-java/blob/master/note/198/README.md
 [384]: https://github.com/andavid/leetcode-java/blob/master/note/384/README.md
 [155]: https://github.com/andavid/leetcode-java/blob/master/note/155/README.md
+[412]: https://github.com/andavid/leetcode-java/blob/master/note/412/README.md
