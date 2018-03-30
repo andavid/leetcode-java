@@ -86,9 +86,11 @@
 | 155  | [Min Stack][155]                            |
 
 **Math**
+
 | #    | Title                                       |
 | :--: | :------------------------------------------ |
 | 412  | [Fizz Buzz][412]                            |
+| 204  | [Count Primes][204]                         |
 
 
 [leetcode]: https://leetcode.com/problemset/all/
@@ -135,3 +137,4 @@
 [384]: https://github.com/andavid/leetcode-java/blob/master/note/384/README.md
 [155]: https://github.com/andavid/leetcode-java/blob/master/note/155/README.md
 [412]: https://github.com/andavid/leetcode-java/blob/master/note/412/README.md
+[204]: https://github.com/andavid/leetcode-java/blob/master/note/204/README.md
