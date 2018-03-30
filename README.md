@@ -91,6 +91,7 @@
 | :--: | :------------------------------------------ |
 | 412  | [Fizz Buzz][412]                            |
 | 204  | [Count Primes][204]                         |
+| 326  | [Power of Three][326]                       |
 
 
 [leetcode]: https://leetcode.com/problemset/all/
@@ -138,3 +139,4 @@
 [155]: https://github.com/andavid/leetcode-java/blob/master/note/155/README.md
 [412]: https://github.com/andavid/leetcode-java/blob/master/note/412/README.md
 [204]: https://github.com/andavid/leetcode-java/blob/master/note/204/README.md
+[326]: https://github.com/andavid/leetcode-java/blob/master/note/326/README.md
