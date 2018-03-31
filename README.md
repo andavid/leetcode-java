@@ -94,6 +94,12 @@
 | 326  | [Power of Three][326]                       |
 | 13   | [Roman to Integer][013]                     |
 
+**Others**
+
+| #    | Title                                       |
+| :--: | :------------------------------------------ |
+| 191  | [Number of 1 Bits][191]                     |
+
 
 [leetcode]: https://leetcode.com/problemset/all/
 [blankj]: https://github.com/Blankj/awesome-java-leetcode
@@ -142,3 +148,4 @@
 [204]: https://github.com/andavid/leetcode-java/blob/master/note/204/README.md
 [326]: https://github.com/andavid/leetcode-java/blob/master/note/326/README.md
 [013]: https://github.com/andavid/leetcode-java/blob/master/note/013/README.md
+[191]: https://github.com/andavid/leetcode-java/blob/master/note/191/README.md
