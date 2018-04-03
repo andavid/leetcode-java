@@ -102,6 +102,7 @@
 | 461  | [Hamming Distance][461]                     |
 | 190  | [Reverse Bits][190]                         |
 | 20   | [Valid Parentheses][020]                    |
+| 268  | [Missing Number][268]                       |
 
 
 [leetcode]: https://leetcode.com/problemset/all/
@@ -155,3 +156,4 @@
 [461]: https://github.com/andavid/leetcode-java/blob/master/note/461/README.md
 [190]: https://github.com/andavid/leetcode-java/blob/master/note/190/README.md
 [020]: https://github.com/andavid/leetcode-java/blob/master/note/020/README.md
+[268]: https://github.com/andavid/leetcode-java/blob/master/note/268/README.md
