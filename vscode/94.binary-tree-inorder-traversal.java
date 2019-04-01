@@ -50,11 +50,9 @@ class Solution {
         stack.push(p);
         p = p.left;
       }
-      if (!stack.empty()) {
-        p = stack.pop();
-        list.add(p.val);
-        p = p.right;
-      }
+      p = stack.pop();
+      list.add(p.val);
+      p = p.right;
     }
 
     return list;
