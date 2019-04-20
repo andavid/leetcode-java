@@ -15,16 +15,16 @@
  * linear data structure in which the operations are performed based on FIFO
  * (First In First Out) principle and the last position is connected back to
  * the first position to make a circle. It is also called "Ring Buffer".
- * 
+ *
  * One of the benefits of the circular queue is that we can make use of the
  * spaces in front of the queue. In a normal queue, once the queue becomes
  * full, we cannot insert the next element even if there is a space in front of
  * the queue. But using the circular queue, we can use the space to store new
  * values.
- * 
+ *
  * Your implementation should support following operations:
- * 
- * 
+ *
+ *
  * MyCircularQueue(k): Constructor, set the size of the queue to be k.
  * Front: Get the front item from the queue. If the queue is empty, return
  * -1.
@@ -36,13 +36,13 @@
  * operation is successful.
  * isEmpty(): Checks whether the circular queue is empty or not.
  * isFull(): Checks whether the circular queue is full or not.
- * 
- * 
- * 
- * 
+ *
+ *
+ *
+ *
  * Example:
- * 
- * 
+ *
+ *
  * MyCircularQueue circularQueue = new MyCircularQueue(3); // set the size to
  * be 3
  * circularQueue.enQueue(1);  // return true
@@ -54,17 +54,17 @@
  * circularQueue.deQueue();  // return true
  * circularQueue.enQueue(4);  // return true
  * circularQueue.Rear();  // return 4
- * 
- * 
- * 
+ *
+ *
+ *
  * Note:
- * 
- * 
+ *
+ *
  * All values will be in the range of [0, 1000].
  * The number of operations will be in the range of [1, 1000].
  * Please do not use the built-in Queue library.
- * 
- * 
+ *
+ *
  */
 class MyCircularQueue {
   private int[] data;
@@ -79,7 +79,7 @@ class MyCircularQueue {
     head = -1;
     tail = -1;
   }
-  
+
   /** Insert an element into the circular queue. Return true if the operation is successful. */
   public boolean enQueue(int value) {
     if (isFull()) {
@@ -92,7 +92,7 @@ class MyCircularQueue {
     data[tail] = value;
     return true;
   }
-  
+
   /** Delete an element from the circular queue. Return true if the operation is successful. */
   public boolean deQueue() {
     if (isEmpty()) {
@@ -106,7 +106,7 @@ class MyCircularQueue {
     head = (head + 1) % size;
     return true;
   }
-  
+
   /** Get the front item from the queue. */
   public int Front() {
     if (isEmpty()) {
@@ -114,7 +114,7 @@ class MyCircularQueue {
     }
     return data[head];
   }
-  
+
   /** Get the last item from the queue. */
   public int Rear() {
     if (isEmpty()) {
@@ -122,12 +122,12 @@ class MyCircularQueue {
     }
     return data[tail];
   }
-  
+
   /** Checks whether the circular queue is empty or not. */
   public boolean isEmpty() {
     return head == -1;
   }
-  
+
   /** Checks whether the circular queue is full or not. */
   public boolean isFull() {
     return ((tail + 1) % size) == head;

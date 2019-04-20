@@ -12,16 +12,16 @@
  * Testcase Example:  '[1,2,3,4,5]\n2\n4'
  *
  * Reverse a linked list from position m to n. Do it in one-pass.
- * 
+ *
  * Note: 1 ≤ m ≤ n ≤ length of list.
- * 
+ *
  * Example:
- * 
- * 
+ *
+ *
  * Input: 1->2->3->4->5->NULL, m = 2, n = 4
  * Output: 1->4->3->2->5->NULL
- * 
- * 
+ *
+ *
  */
 /**
  * Definition for singly-linked list.
@@ -43,7 +43,7 @@ class Solution {
     for (int i = 1; i < m; i++) {
       pre = pre.next;
     }
-    
+
     ListNode start = pre.next;
     ListNode then = start.next;
     for (int i = m; i < n; i++) {
