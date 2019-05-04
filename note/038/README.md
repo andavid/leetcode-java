@@ -36,7 +36,7 @@ Output: "1211"
 ## 思路
 遍历字符串，如果当前字符和上一个字符不相同，则输出计数情况，否则计数器加1。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -70,4 +70,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/count-and-say
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_038/Solution.java
+

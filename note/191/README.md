@@ -14,7 +14,7 @@ n & (n-1) 会把 n 最右边的 1 变为 0，其余位保持不变。
 
 循环下去，直到 n 变为 0 就可以知道 1 的个数了。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -49,5 +49,5 @@ public class Solution {
 ```
 
 [title]: https://leetcode.com/problems/number-of-1-bits
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_191/Solution.java
+
 [src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_191/Solution2.java

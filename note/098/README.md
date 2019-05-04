@@ -34,7 +34,7 @@ Binary tree `[1,2,3]`, return false.
 递归。带上两个参数，分别表示最小值和最大值。
 左子树的最大值要小于根节点，右子树的最小值要大于根节点。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 /**
@@ -64,4 +64,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/validate-binary-search-tree
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_098/Solution.java
+

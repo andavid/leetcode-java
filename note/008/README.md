@@ -29,7 +29,7 @@ If no valid conversion could be performed, a zero value is returned. If the corr
 3. 然后依次读取字符，如果是非数字字符或者数值超过 INT 最大值退出
 4. 结果乘以标志位，和 INT 最大值、INT 最小值进行比较
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -78,4 +78,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/string-to-integer-atoi
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_008/Solution.java
+

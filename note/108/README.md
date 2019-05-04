@@ -26,7 +26,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 有序数组的中间作为平衡二叉树的根节点，前半部分作为左子树，后半部分作为右子树。
 
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 /**
@@ -55,4 +55,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_108/Solution.java
+

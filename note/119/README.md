@@ -15,7 +15,7 @@ Could you optimize your algorithm to use only O(k) extra space?
 
 如何从第 n-1 行的列表变化到第 n 行的列表？可以从后往前覆盖列表，将列表第 i 个元素的值与第 i-1 个元素的和覆盖到第 i 个元素，最后再添加末尾元素 1 即可。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -37,4 +37,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/pascals-triangle-ii
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_119/Solution.java
+

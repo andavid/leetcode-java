@@ -16,7 +16,7 @@ If this function is called many times, how would you optimize it?
 
 将结果不断左移一位，然后加上最右边一位。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 public class Solution {
@@ -32,4 +32,4 @@ public class Solution {
 ```
 
 [title]: https://leetcode.com/problems/reverse-bits
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_190/Solution.java
+

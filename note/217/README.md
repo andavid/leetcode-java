@@ -12,7 +12,7 @@ Given an array of integers, find if the array contains any duplicates. Your func
 1. 对数组先排序，然后扫描一遍数组看相邻元素是否相等。时间复杂度取决于排序算法。
 1. 使用 HashSet（集合里不允许有重复的值），把数组元素全部添加到集合里，如何集合长度和数组长度不一致，说明有重复元素。时间复杂度 O(n)，空间复杂度 O(n)。此方法相对较优。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -32,4 +32,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/contains-duplicate
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_217/Solution.java
+

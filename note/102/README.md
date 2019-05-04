@@ -31,7 +31,7 @@ return its level order traversal as:
 * 如果节点不为空，把当前值加到列表，然后把节点的左右孩子节点压入队列尾部（如果孩子节点不为空）
 * 如果节点为空，并且队列不为空，则添加当前列表
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 /**
@@ -163,6 +163,6 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/binary-tree-level-order-traversal
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_102/Solution.java
+
 [src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_102/Solution2.java
 [src3]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_102/Solution3.java

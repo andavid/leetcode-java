@@ -32,7 +32,7 @@ Assume we are dealing with an environment which could only hold integers within 
 ## 思路
 使用长整型保存结果。依次模 10 得到最右边一位。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -50,4 +50,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/reverse-integer
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_007/Solution.java
+

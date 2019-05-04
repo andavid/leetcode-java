@@ -35,7 +35,7 @@ Return:
 
 这个题目也太简单了吧。使用取模运算符判断一下是否是3，5，15的倍数即可。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -58,4 +58,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/fizz-buzz
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_412/Solution.java
+

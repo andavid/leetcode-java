@@ -10,7 +10,7 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
 
 使用一个堆栈，遍历字符串的字符，遇到 '(' 压入 ')'，遇到 '{' 压入 '}'，遇到 '[' 压入 ']'，遇到其他字符时，判断是否与栈顶字符相同。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -34,4 +34,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/valid-parentheses
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_020/Solution.java
+

@@ -22,7 +22,7 @@ It doesn't matter what you leave beyond the new length.
 
 判断长度小于等于 1 的话直接返回原长度即可，否则的话遍历一遍数组，用一个 tail 变量指向新的数组尾部，如果后面的元素和前面的元素不同，就让后面的元素写到 tail 所指数组元素，然后 tail 变量加一，最后返回 tail 即可。
 
-## [完整代码][src]
+## 实现代码
 
 ```Java
 class Solution {
@@ -43,4 +43,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/remove-duplicates-from-sorted-array
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_026/Solution.java
+

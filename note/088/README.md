@@ -19,7 +19,7 @@ You may assume that nums1 has enough space (size that is greater or equal to m +
 * 如果是第二个数组的数用完了，剩下的全是数组 1，不用填充了
 
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -40,4 +40,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/merge-sorted-array
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_088/Solution.java
+

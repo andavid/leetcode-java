@@ -16,7 +16,7 @@ LCP(S<sub>mid+1</sub>...S<sub>j</sub>)，其中 mid = (i+j) / 2.
 
 根据这两个子问题的解，即可求出最长公共前缀。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -97,5 +97,5 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/longest-common-prefix
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_014/Solution.java
+
 [src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_014/Solution2.java

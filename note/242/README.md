@@ -19,7 +19,7 @@ What if the inputs contain unicode characters? How would you adapt your solution
 首先判断长度是否一致，如果不一致的话肯定不是。
 然后将字符串转成字符数组，对字符数组进行排序，比较两个排序后的字符数组是否完全一致。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -39,7 +39,7 @@ class Solution {
 ## 思路二
 由于题目中字符串只包含字母，因此可以使用一个数组记录26个字母出现的次数，遍历第一个字符串时次数加1，遍历第二个字符串时出现次数减1，一旦发现某个字符出现次数小于等于0时，说明该字符要么是从未出现过的字符，要么是出现次数超过第一个字符串，肯定不是同字母异序词。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -67,4 +67,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/valid-anagram
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_242/Solution.java
+

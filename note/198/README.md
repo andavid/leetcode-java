@@ -10,7 +10,7 @@ Given a list of non-negative integers representing the amount of money of each h
 
 假设 dp[i] 表示抢劫前 i 个房子的最大收益，由于不能连着抢两个房子，所以 dp[i] = Max(dp[i-2]+ nums[i], dp[i-1])
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -59,5 +59,5 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/house-robber
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_198/Solution.java
+
 [src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_198/Solution2.java

@@ -22,7 +22,7 @@ Return
 第 n 行有 n 个数字，第一个和最后一个数字为 1，其余每个数字等于它的左上方与右上方两个数字之和。
 因此，可以根据第 n - 1 行得到第 n 行。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -52,4 +52,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/pascals-triangle
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_118/Solution.java
+

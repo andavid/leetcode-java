@@ -23,7 +23,7 @@ return its depth = 3.
 
 递归。求二叉树 root 节点左子树和右子树的深度，其中较大的深度加 1 即为二叉树的深度。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 /**
@@ -67,5 +67,5 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/maximum-depth-of-binary-tree
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_104/Solution.java
+
 [src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_104/Solution2.java

@@ -14,7 +14,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 把所有的数字进行异或运算即可。
 
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -29,4 +29,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/single-number
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_136/Solution.java
+

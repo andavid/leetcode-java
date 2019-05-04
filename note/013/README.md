@@ -20,7 +20,7 @@ Input is guaranteed to be within the range from 1 to 3999.
 
 根据以上几个规则，主要是右加左减，可以从右往左扫描字符串，如果遇到 I、X、C 判断是减还是加，如果遇到其他罗马数字，直接累加。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -58,4 +58,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/roman-to-integer
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_013/Solution.java
+

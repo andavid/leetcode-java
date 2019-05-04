@@ -19,7 +19,7 @@ If you have figured out the O(n) solution, try coding another solution using the
 
 如果局部最大值大于全局最大值，则进行更新。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -40,4 +40,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/maximum-subarray
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_053/Solution.java
+

@@ -24,7 +24,7 @@ Output: -1
 
 太简单了吧，indexOf 搞定。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -38,4 +38,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/implement-strstr
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_028/Solution.java
+

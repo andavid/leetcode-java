@@ -20,7 +20,7 @@ A valid Sudoku board (partially filled) is not necessarily solvable. Only the fi
 
 因此，只需要从左往右，从上到下，依次遍历 board 里的数字，一旦发现数字所在的行、列或小九宫格里该数字对应的位置为 true，说明不是有效的数独。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 import java.util.HashSet;
@@ -55,4 +55,4 @@ public class Solution {
 
 [title]: https://leetcode.com/problems/valid-sudoku
 [sudoku]: http://sudoku.com.au/TheRules.aspx
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_036/Solution.java
+

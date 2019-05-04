@@ -22,7 +22,7 @@ initially all set to true.
 Output: all i such that A[i] is true.
 ```
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -51,4 +51,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/count-primes
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_204/Solution.java
+

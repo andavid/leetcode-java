@@ -18,7 +18,7 @@ For the purpose of this problem, we define empty string as valid palindrome.
 判断字符串是否是回文字符串，忽略除了数字和大小写字母之外的字符。
 使用头和尾两个指针往中间扫描，遇到非数字和字母的字符跳过，比较两个字符是否相等（忽略大小写）。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -66,4 +66,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/valid-palindrome
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_125/Solution.java
+

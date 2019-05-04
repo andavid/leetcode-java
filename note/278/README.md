@@ -12,7 +12,7 @@ You are given an API bool isBadVersion(version) which will return whether versio
 
 使用二分查找，需要注意的是，中间值的计算不能使用 (left + right) / 2，这样会造成加法溢出，而应该使用 left + (right - left) / 2。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 /* The isBadVersion API is defined in the parent class VersionControl.
@@ -38,4 +38,4 @@ public class Solution extends VersionControl {
 ```
 
 [title]: https://leetcode.com/problems/first-bad-version
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_278/Solution.java
+

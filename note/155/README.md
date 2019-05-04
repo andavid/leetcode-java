@@ -28,7 +28,7 @@ minStack.getMin();   --> Returns -2.
 
 也可以只使用一个栈。需要记录当前最小值，每次压入一个数时，如果它比当前最小值大，直接压入栈；如果比当前最小值还小，那么先压入当前最小值，然后更新当前最小值，最后再压入新的最小值。出栈的时候，如果值等于当前最小值，那么需要再次出栈，并更新当前最小值。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class MinStack {
@@ -65,4 +65,4 @@ class MinStack {
 ```
 
 [title]: https://leetcode.com/problems/min-stack
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_155/Solution.java
+

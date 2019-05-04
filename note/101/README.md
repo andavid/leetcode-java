@@ -36,7 +36,7 @@ Bonus points if you could solve it both recursively and iteratively.
 * 如果左右孩子节点都不为空，但是值不相等，也不是对称的。
 * 如果左右孩子节点都不为空，且值相等，如果左孩子节点的左子树与右孩子节点的右子树是对称的，并且左孩子节点的右子树与右孩子节点的左子树是对称的，则二叉树是对称的。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 /**
@@ -105,5 +105,5 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/symmetric-tree
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_101/Solution.java
+
 [src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_101/Solution2.java

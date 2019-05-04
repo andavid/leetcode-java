@@ -16,7 +16,7 @@ Try to come up as many solutions as you can, there are at least 3 different ways
 
 这里需要特别注意，向右移动的步数 k 有可能大于数组的长度，因此要做个取模处理。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -39,4 +39,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/rotate-array
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_189/Solution.java
+

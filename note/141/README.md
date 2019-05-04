@@ -12,7 +12,7 @@ Can you solve it without using extra space?
 使用快慢两个指针，慢指针每次前进一步，快指针每次前进两步，如果慢指针和快指针相等，说明有环。
 
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 /**
@@ -43,4 +43,4 @@ public class Solution {
 ```
 
 [title]: https://leetcode.com/problems/linked-list-cycle
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_141/Solution.java
+

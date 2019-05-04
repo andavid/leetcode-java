@@ -11,7 +11,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 
 只需要把所有相邻递增的值都加起来即可。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -29,4 +29,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_122/Solution.java
+

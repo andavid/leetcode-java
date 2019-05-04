@@ -22,7 +22,7 @@ Given nums1 = `[1, 2, 2, 1]`, nums2 = `[2, 2]`, return `[2, 2]`.
 最后把 List 转成 int 数组即可。
 时间复杂度 O(n)，空间复杂度 O(n)。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -59,4 +59,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/intersection-of-two-arrays-ii
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_350/Solution.java
+

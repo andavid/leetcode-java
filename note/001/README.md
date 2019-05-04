@@ -21,7 +21,7 @@ return [0, 1].
 
 遍历数组，使用一个 HashMap 记录数组里的数及其索引，如果总数与当前数的差值在 HashMap 里存在相应的记录，就找到了。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -47,4 +47,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/two-sum
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_001/Solution.java
+

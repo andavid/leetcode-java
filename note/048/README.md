@@ -53,7 +53,7 @@ rotate the input matrix in-place such that it becomes:
 
 思路是从外往内，一圈一圈的进行。其中每一圈的每个元素顺时针旋转 90 度，连续操作四次。注意边界，防止重复操作。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -73,4 +73,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/rotate-image
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_048/Solution.java
+

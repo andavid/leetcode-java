@@ -21,7 +21,7 @@ Try to do this in one pass.
 
 如果知道链表的长度，就可以从前往后一次遍历就可以了。但是求链表长度还需要遍历一次，因此总共需要两次遍历。题目要求使用一次遍历，可以使用两个指针来实现。初始都指向 head，第一个指针前进 N 步，然后两个指针同时前进直到第一个指针到达链表末尾，第二个指针后面的那个节点就是要移除的节点。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 /**
@@ -56,4 +56,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/remove-nth-node-from-end-of-list
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_019/Solution.java
+

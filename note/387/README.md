@@ -20,7 +20,7 @@ return 2.
 
 依次检查字母 a-z，看看该字符是否只出现了一次，并记录最小下标。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -41,4 +41,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/first-unique-character-in-a-string
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_387/Solution.java
+

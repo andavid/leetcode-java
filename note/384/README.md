@@ -26,7 +26,7 @@ solution.shuffle();
 每次随机生成一个索引，然后将该位置的元素和当前位置的元素进行交换。
 
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -69,4 +69,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/shuffle-an-array
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_384/Solution.java
+

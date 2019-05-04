@@ -37,7 +37,7 @@ Explanation:  There are three ways to climb to the top.
 爬到第 N 步有两种方法，从 第 N-1 步爬一步，或者从第 N-2 步爬两步。
 题目其实就是求斐波那契数列的第 N 个数。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -57,4 +57,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/climbing-stairs
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_070/Solution.java
+

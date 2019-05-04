@@ -12,7 +12,7 @@ The digits are stored such that the most significant digit is at the head of the
 一个整数按位从高到低依次存储到一个 int 数组中，从数组最后一位开始加 1，如果没有进位，只需修改最后一位即可，否则继续向前进位，如果一直到第一位都有进位，说明全部都是 9，新的数组长度需要加 1，首位是 1，其余位都是 0。
 时间复杂度 O(n)。
 
-## [完整代码][src]
+## 实现代码
 
 ```java
 class Solution {
@@ -41,4 +41,4 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/plus-one
-[src]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_066/Solution.java
+
