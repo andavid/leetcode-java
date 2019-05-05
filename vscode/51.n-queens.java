@@ -7,26 +7,25 @@ class Solution {
   public List<List<String>> solveNQueens(int n) {
     int[] result = new int[n];
     List<List<String>> list = new ArrayList<>();
-    solve(list, result, 0);
+    solve(list, result, n, 0);
     return list;
   }
 
-  public void solve(List<List<String>> list, int[] result, int row) {
-    if (row == result.length) {
-      list.add(construct(result));
+  public void solve(List<List<String>> list, int[] result, int n, int row) {
+    if (row == n) {
+      list.add(construct(result, n));
       return;
     }
 
-    for (int column = 0; column < result.length; column++) {
-      if (isOk(result, row, column)) {
+    for (int column = 0; column < n; column++) {
+      if (isOk(result, n, row, column)) {
         result[row] = column;
-        solve(list, result, row + 1);
+        solve(list, result, n, row + 1);
       }
     }
   }
 
-  public boolean isOk(int[] result, int row, int column) {
-    int n = result.length;
+  public boolean isOk(int[] result, int n, int row, int column) {
     int leftup = column - 1;
     int rightup = column + 1;
     for (int i = row - 1; i >= 0; i--) {
@@ -43,9 +42,8 @@ class Solution {
     return true;
   }
 
-  public List<String> construct(int[] result) {
+  public List<String> construct(int[] result, int n) {
     List<String> list = new ArrayList<>();
-    int n = result.length;
     for (int i = 0; i < n; i++) {
       StringBuilder sb = new StringBuilder();
       for (int j = 0; j < n; j++) {
