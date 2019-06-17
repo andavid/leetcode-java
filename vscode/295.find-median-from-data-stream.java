@@ -54,27 +54,31 @@
  */
 class MedianFinder {
 
-  public PriorityQueue<Integer> minheap, maxheap;
+  /** 大顶堆，保存前半部分数据 */
+  private PriorityQueue<Integer> maxHeap;
 
-  /** initialize your data structure here. */
+  /** 小顶堆，保存后半部分数据 */
+  private PriorityQueue<Integer> minHeap;
+
+
   public MedianFinder() {
-    minheap = new PriorityQueue<Integer>();
-    maxheap = new PriorityQueue<Integer>(Collections.reverseOrder());
+    minHeap = new PriorityQueue<>();
+    maxHeap = new PriorityQueue<>(Collections.reverseOrder());
   }
 
   public void addNum(int num) {
-    maxheap.add(num);
-    minheap.add(maxheap.poll());
-    if (maxheap.size() < minheap.size()) {
-      maxheap.add(minheap.poll());
+    maxHeap.offer(num);
+    minHeap.offer(maxHeap.poll());
+    if (maxHeap.size() < minHeap.size()) {
+      maxHeap.offer(minHeap.poll());
     }
   }
 
   public double findMedian() {
-    if (minheap.size() == maxheap.size()) {
-      return (minheap.peek() + maxheap.peek()) * 0.5;
+    if (maxHeap.size() == minHeap.size()) {
+      return (maxHeap.peek() + minHeap.peek()) * 0.5;
     } else {
-      return maxheap.peek();
+      return maxHeap.peek();
     }
   }
 }
