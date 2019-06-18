@@ -43,27 +43,24 @@ class Solution {
       }
     });
 
-    ListNode head = null, curr = null;
     for (ListNode node : lists) {
       if (node != null) {
         queue.add(node);
       }
     }
 
+    ListNode dummy = new ListNode(0);
+    ListNode curr = dummy;
+
     while (!queue.isEmpty()) {
-      ListNode node = queue.poll();
-      if (head == null) {
-        head = curr = node;
-      } else {
-        curr.next = node;
-        curr = curr.next;
-      }
-      if (node.next != null) {
-        queue.add(node.next);
+      curr.next = queue.poll();
+      curr = curr.next;
+      if (curr.next != null) {
+        queue.add(curr.next);
       }
     }
 
-    return head;
+    return dummy.next;
   }
 }
 
