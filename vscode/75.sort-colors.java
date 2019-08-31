@@ -42,27 +42,23 @@
  */
 class Solution {
   public void sortColors(int[] nums) {
-    Map<Integer, Integer> map = new HashMap<>();
+    int zero = 0;
+    int second = nums.length - 1;
 
-    for (int i = 0; i < nums.length; i++) {
-      if (map.containsKey(nums[i])) {
-        map.put(nums[i], map.get(nums[i]) + 1);
-      } else {
-        map.put(nums[i], 1);
+    for (int i = zero; i <= second; i++) {
+      while (nums[i] == 2 && i < second) {
+        swap(nums, i, second--);
+      }
+      while (nums[i] == 0 && i > zero) {
+        swap(nums, i, zero++);
       }
     }
+  }
 
-    int k = 0;
-    for (int key = 0; key <= 2; key++) {
-      int count = 0;
-      if (map.containsKey(key)) {
-        count = map.get(key);
-      }
-      while (count > 0) {
-        nums[k++] = key;
-        count--;
-      }
-    }
+  public void swap(int[] nums, int i, int j) {
+    int temp = nums[i];
+    nums[i] = nums[j];
+    nums[j] = temp;
   }
 }
 
