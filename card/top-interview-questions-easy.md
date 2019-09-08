@@ -1,8 +1,6 @@
 
 # [Top Interview Questions Easy Collection][top-interview-questions-easy]
 
-LeetCode 官方精选的经典面试问题列表(Easy)
-
 **Array**
 
 | #    | Title                                       |
