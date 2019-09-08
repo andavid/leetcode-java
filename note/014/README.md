@@ -11,12 +11,12 @@ Write a function to find the longest common prefix string amongst an array of st
 采用分治算法。
 
 将 LCP(S<sub>i</sub>...S<sub>j</sub>) 分解为两个子问题：
-LCP(S<sub>i</sub>...S<sub>mid</sub>) 和 
+LCP(S<sub>i</sub>...S<sub>mid</sub>) 和
 LCP(S<sub>mid+1</sub>...S<sub>j</sub>)，其中 mid = (i+j) / 2.
 
 根据这两个子问题的解，即可求出最长公共前缀。
 
-## 实现代码
+## 实现代码一
 
 ```java
 class Solution {
@@ -54,7 +54,7 @@ class Solution {
 先找出最短字符串的长度，最长公共前缀的长度不会超过最短字符串的长度。
 采用二分查找的思路逐步确定最长公共前缀。
 
-## [完整代码][src2]
+## 实现代码二
 
 ```java
 class Solution {
@@ -97,5 +97,3 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/longest-common-prefix
-
-[src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_014/Solution2.java

@@ -28,7 +28,7 @@ The above arrows point to positions where the corresponding bits are different.
 
 求两个整数的二进制表示中，不同的 bit 位数量。异或操作符，相同位运算后为 0，不同位运算后为 1，因此只需要求两个整数经过异或之后，对应的二进制表示中 1 的数量。
 
-## 实现代码
+## 实现代码一
 
 ```java
 class Solution {
@@ -51,7 +51,7 @@ class Solution {
 
 使用 Integer.bitCount 获取二进制数 bit 位中 1 的数量。
 
-## [完整代码][src2]
+## 实现代码二
 
 ```java
 class Solution {
@@ -62,5 +62,3 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/hamming-distance
-
-[src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_461/Solution2.java

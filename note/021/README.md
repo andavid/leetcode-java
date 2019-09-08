@@ -13,7 +13,7 @@ Output: 1->1->2->3->4->4
 
 遍历两个链表，比较两个链表节点的大小，修改当前节点使其指向较小的那个节点。
 
-## 实现代码
+## 实现代码一
 
 ```java
 /**
@@ -62,7 +62,7 @@ class Solution {
 
 比较两个链表头节点的大小，指向较小的节点，并且该节点的 next 节点可以通过递归的方法得到。
 
-## [完整代码][src2]
+## 实现代码二
 
 ```java
 /**
@@ -90,5 +90,3 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/merge-two-sorted-lists
-
-[src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_021/Solution2.java

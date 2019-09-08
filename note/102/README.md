@@ -31,7 +31,7 @@ return its level order traversal as:
 * 如果节点不为空，把当前值加到列表，然后把节点的左右孩子节点压入队列尾部（如果孩子节点不为空）
 * 如果节点为空，并且队列不为空，则添加当前列表
 
-## 实现代码
+## 实现代码一
 
 ```java
 /**
@@ -81,7 +81,7 @@ class Solution {
 在思路一的基础上进行优化。思路一通过往队列里添加空白节点作为每一层的分隔。
 其实当前队列的长度就是该层节点的个数，通过 for 循环往队列里压入下一层节点。
 
-## [完整代码][src2]
+## 实现代码二
 
 ```java
 /**
@@ -97,7 +97,7 @@ class Solution {
   public List<List<Integer>> levelOrder(TreeNode root) {
     List<List<Integer>> list = new ArrayList<>();
     if (root == null) return list;
-    
+
     Queue<TreeNode> queue = new LinkedList<TreeNode>();
     queue.offer(root);
 
@@ -130,7 +130,7 @@ class Solution {
 每一层对应一个列表，取到当前层对应的那个列表，添加当前节点的值，
 然后递归操作当前节点的左右孩子节点。
 
-## [完整代码][src3]
+## 实现代码三
 
 ```java
 /**
@@ -163,6 +163,3 @@ class Solution {
 ```
 
 [title]: https://leetcode.com/problems/binary-tree-level-order-traversal
-
-[src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_102/Solution2.java
-[src3]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_102/Solution3.java

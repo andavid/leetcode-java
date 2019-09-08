@@ -28,7 +28,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 
 先求出总和，再减去数组所有元素的和，就可以得到缺失的那个数了。
 
-## 实现代码
+## 实现代码一
 
 ```java
 class Solution {
@@ -54,7 +54,7 @@ class Solution {
 由于数组的索引从 0 到 n-1，数组的元素从 0 到 n 各不相同且只缺失一个。
 那么只需要初始化一个数 n，然后异或每一个索引和对应的元素，最后的结果就是缺失的那个数。
 
-## [完整代码][src2]
+## 实现代码二
 
 ```java
 class Solution {
@@ -68,7 +68,4 @@ class Solution {
 }
 ```
 
-
 [title]: https://leetcode.com/problems/missing-number
-
-[src2]: https://github.com/andavid/leetcode-java/blob/master/src/com/andavid/leetcode/_268/Solution2.java
