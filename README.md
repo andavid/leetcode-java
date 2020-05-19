@@ -1,11 +1,14 @@
 # leetcode-java
 
-[LeetCode][leetcode-problems] solutions written in Java.
+LeetCode solutions written in Java.
 
 ## introduction
 
-* `vscode` dir contains LeetCode solutions written in Java using [vscode leetcode plugin][vscode-leetcode-plugin].
-* `note` dir contains solutions articles.
+LeetCode solutions written in Java using [vscode leetcode plugin][vscode-leetcode-plugin].
+
+* `en` for [English version][leetcode-problems].
+* `zh` for [Chinese version][leetcode-problems-cn].
+* `note` for solutions articles.
 
 ## problemset
 
@@ -13,4 +16,5 @@
 * [Top Interview Questions Medium Collection](./top-interview-questions-medium.md)
 
 [leetcode-problems]: https://leetcode.com/problemset/all/
+[leetcode-problems-cn]: https://leetcode-cn.com/problemset/all/
 [vscode-leetcode-plugin]: https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-leetcode
