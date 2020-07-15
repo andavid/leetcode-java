@@ -10,6 +10,10 @@ LeetCode solutions written in Java using [vscode leetcode plugin][vscode-leetcod
 * `zh` for [Chinese version][leetcode-problems-cn].
 * `note` for solutions articles.
 
+## tag
+
+* [Binary Search](./tag/binary_search.md)
+
 ## problemset
 
 * [Top Interview Questions Easy Collection](./top-interview-questions-easy.md)
